@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #FF934F   ;
+  --secondary-color: #216869 ;
+  --accent1-color: #FFF07C;
+  --accent2-color: #49A078;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #216869;  /* headlines on a white background */ 
+  --headline-color-on-color: #FF934F; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #49A078; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFF07C; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #216869  ;
+  --nav-link-color: #216869;
+  --nav-background-color: #FF934F;
+  --nav-hover-link-color: #49A078;
+  --nav-hover-background-color: #FFF07C;
 }
 
 
@@ -136,17 +136,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #FF934F;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #FFF07C;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #216869;
   line-height: 3em;
 }
 .top {
