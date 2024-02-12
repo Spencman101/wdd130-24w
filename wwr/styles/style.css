@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 .home-title {
-    font-family: 'Lato', 'IM Fell French Cannon', Helvetica;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -108,6 +107,7 @@ footer .social img {
     color:#216869;
 } 
 body {
+    font-family: 'Lato', 'IM Fell French Cannon', Helvetica;
     background-color:#216869;
     font-size: 32px;
     color:#216869;
