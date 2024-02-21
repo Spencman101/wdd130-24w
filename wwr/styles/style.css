@@ -186,7 +186,7 @@ body {
 }
 
 header {
-    background-color:coral;
+    background-color: #FF934F55;
     display: grid;
     grid-template-columns: 150px auto;
 }
