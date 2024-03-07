@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 300px;
+    background-color: white;
+    margin: 1em auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+header {
+    color: darkblue;
+}
+p {
+    color: dimgrey;
+}
+footer {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
