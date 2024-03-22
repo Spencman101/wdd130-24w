@@ -5,23 +5,40 @@
     font-size: 2em;
     margin-top: 10px;
 }
-header {
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr;
-}
-#logo-link1 {
-    grid-row: 1/3;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+body {
+    font-family: "Ubuntu", 'Kanit', sans-serif;
+    background-color:#3A3B3F;
+    font-size: 32px;
+    color:#D6D6D8;
+    margin: 0;
+    padding: 0;
 }
 nav {
     display: flex;
     justify-content: space-around;
 }
+header {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+}
+.logo {
+    display: inline-block;
+    place-items: center;
+    padding-top: 5px;
+}
+#logo-link1 {
+    grid-row: 1/3;    
+}
 #logo-link2 {
     grid-row: 3/3;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: #D6D6D8;
+}
+nav a:hover {
+    background-color:#D6D6D8;
+    color:#A0361B;
 }
