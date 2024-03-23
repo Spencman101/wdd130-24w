@@ -13,6 +13,20 @@ body {
     margin: 0;
     padding: 0;
 }
+h1, h2 {
+    font: 1.5em 'Kanit';
+    text-align: center;
+}
+.home-title {
+    font: 2em 'Kanit';
+}
+.main_bayou {
+    display: block;
+    text-align: center;
+}
+.main_img {
+    border: 10px solid #978061;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -20,6 +34,7 @@ nav {
 header {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
+    text-align: center;
 }
 .logo {
     display: inline-block;
@@ -41,6 +56,27 @@ nav a {
 nav a:hover {
     color:#978061;
     background-color:#D6D6D8;
+}
+.main_p {
+    text-align: center;
+}
+.jeeps_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.karma_moab, .sabotage_moab {
+    width: 100vh;
+    object-fit: cover;
+    border: 10px solid #978061;
+}
+.contact {
+    display: grid;
+    align-content: center;
+    grid-template: 1fr / 250px 1fr 250px 1fr;
+}
+.contact_icon {
+    size: 250px;
+    text-align: right;
 }
 footer {
     background-color:#D6D6D8;
