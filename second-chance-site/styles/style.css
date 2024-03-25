@@ -65,7 +65,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 .karma_moab, .sabotage_moab {
-    width: 100vh;
+    width: 48vw;
     object-fit: cover;
     border: 10px solid #978061;
 }
@@ -81,7 +81,7 @@ nav a:hover {
 footer {
     background-color:#D6D6D8;
     color:#A0361B;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
