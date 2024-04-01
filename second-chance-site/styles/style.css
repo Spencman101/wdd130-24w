@@ -153,6 +153,37 @@ nav a:hover {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+#our_story * {
+    margin: 0;
+    padding: 0;
+}
+#our_story h1 {
+    grid-column: 1/3;
+}
+#our_story {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 10px;
+    row-gap: 25px;
+    justify-items: center;
+    align-items: center;
+}
+#our_story img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #978061;
+}
+.wide_img {
+    width: 80%;
+}
+#our_story p {
+    margin: -5px;
+    font-size: 26px;
+    border: 10px solid #978061;
+    padding: 10px;
+}
 footer {
     background-color:#D6D6D8;
     color:#A0361B;
