@@ -78,7 +78,6 @@ nav a:hover {
     grid-template: 1fr / 250px 1fr 250px 1fr;
 }
 .contact_icon {
-    size: 250px;
     text-align: right;
 }
 .past-rebuilds {
